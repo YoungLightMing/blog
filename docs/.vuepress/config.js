@@ -7,7 +7,6 @@ module.exports = {
             { text: '首页', link: '/' },
             { text: '技术积累', link: '/technic/' },
             { text: '生活随笔', link: '/life/' },
-            // { text: '碎碎念', link: '/thinks/' },
             { text: '关于我', link: '/about/' }
         ],
         sidebar: {
