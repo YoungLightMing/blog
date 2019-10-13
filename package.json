@@ -1,0 +1,21 @@
+{
+  "name": "myblog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "d": "bash deploy.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.0.0-alpha.42",
+    "@vuepress/plugin-blog": "^1.0.0-alpha.42",
+    "vuepress": "^1.0.0-alpha.42"
+  },
+  "dependencies": {
+    "markdown-it-container": "^2.0.0"
+  }
+}
