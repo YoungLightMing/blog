@@ -1,55 +1,23 @@
 module.exports = {
     title: '路某人',
-    description: '少一些功利主义的追求，多一些不为什么的坚持。',
+    description: '纸上得来终觉浅，绝知此事要躬行。',
     themeConfig: {
         repo: 'https://github.com/YoungLightMing/YoungLightMing.github.io',
         nav: [
             { text: '首页', link: '/' },
             { text: '技术积累', link: '/technic/' },
-            { text: '生活随笔', link: '/life/' },
-            { text: '关于我', link: '/about/' }
+            { text: '33 个 JS 核心概念 ', link: '/33day/' },
+            { text: '我的书单', link: '/book/' },
         ],
         sidebar: {
             '/technic/': [
                 '/technic/',
-                {
-                    title: '33 个 js 核心概念',
-                    children: [
-                        '/technic/33day/number1',
-                        '/technic/33day/number2',
-                        '/technic/33day/number3',
-                        '/technic/33day/number4',
-                        '/technic/33day/number5',
-                        '/technic/33day/number6',
-                        '/technic/33day/number7',
-                        '/technic/33day/number8',
-                        '/technic/33day/number9',
-                        '/technic/33day/number10',
-                        '/technic/33day/number11',
-                        '/technic/33day/number12',
-                        '/technic/33day/number13',
-                        '/technic/33day/number14',
-                        '/technic/33day/number15',
-                        '/technic/33day/number16',
-                        '/technic/33day/number17',
-                        '/technic/33day/number18',
-                        '/technic/33day/number19',
-                        '/technic/33day/number20',
-                        '/technic/33day/number21',
-                        '/technic/33day/number22',
-                        '/technic/33day/number23',
-                        '/technic/33day/number24',
-                        '/technic/33day/number25',
-                        '/technic/33day/number26',
-                        '/technic/33day/number27',
-                        '/technic/33day/number28',
-                        '/technic/33day/number29',
-                        '/technic/33day/number30',
-                        '/technic/33day/number31',
-                        '/technic/33day/number32',
-                        '/technic/33day/number33'
-                    ]
-                },
+                // {
+                //     title: 'JavaScript 系列',
+                //     children: [
+                        
+                //     ]
+                // },
                 {
                     title: 'ES6 系列',
                     children: [
@@ -84,47 +52,57 @@ module.exports = {
                     ]
                 }
             ],
-            '/life/': [
-                '/life/',
-                {
-                    title: '随想',
-                    children: [
-                        '/life/post/说给自己听',
-                        '/life/post/记一个有趣的寒假',
-                        '/life/post/月是故乡明'
-                    ]
-                },
-                {
-                    title: '游记',
-                    children: [
-                        '/life/tour/毕业旅行',
-                        '/life/tour/初见北京'
-                    ]
-                },
-                {
-                    title: '故事',
-                    children: [
-                        '/life/story/寻车'
-                    ]
-                },
-                {
-                    title: '生活总结',
-                    children: [
-                        '/life/summary/回首 2018 ',
-                        '/life/summary/2018 11 月总结',
-                        '/life/summary/2018 10 月总结',
-                        '/life/summary/2018 9 月总结',
-                        '/life/summary/2018 7 月总结',
-                        '/life/summary/2018 6 月总结',
-                        '/life/summary/2018 5 月总结',
-                        '/life/summary/2018 3 月总结',
-                        '/life/summary/2018 1 月总结',
-                        '/life/summary/2017 12 月总结',
-                        '/life/summary/2017 11 月总结',
-                        '/life/summary/2017 10 月总结'
-                    ]
-                },
+            '/33day/': [
+                '/33day/',
+                '/33day/number1',
+                '/33day/number2',
+                '/33day/number3',
+                '/33day/number4',
+                '/33day/number5',
+                '/33day/number6',
+                '/33day/number7',
+                '/33day/number8',
+                '/33day/number9',
+                // '/33day/number10',
+                // '/33day/number11',
+                // '/33day/number12',
+                // '/33day/number13',
+                // '/33day/number14',
+                // '/33day/number15',
+                // '/33day/number16',
+                // '/33day/number17',
+                // '/33day/number18',
+                // '/33day/number19',
+                // '/33day/number20',
+                // '/33day/number21',
+                // '/33day/number22',
+                // '/33day/number23',
+                // '/33day/number24',
+                // '/33day/number25',
+                // '/33day/number26',
+                // '/33day/number27',
+                // '/33day/number28',
+                // '/33day/number29',
+                // '/33day/number30',
+                // '/33day/number31',
+                // '/33day/number32',
+                // '/33day/number33',
             ],
+            '/book/': [
+                '/book/',
+                // {
+                //     title: '软技能',
+                //     children: [
+
+                //     ]
+                // },
+                // {
+                //     title: '好文分享',
+                //     children: [
+
+                //     ]
+                // }
+            ]    
         },
         lastUpdated: '最近更新', // string | boolean
     }, //themeConfig
@@ -135,4 +113,7 @@ module.exports = {
     markdown: {
         lineNumbers: true
     },
+    head: [
+        ['link', { rel: 'icon', href: '/logo.jpg' }]
+      ]
 }
