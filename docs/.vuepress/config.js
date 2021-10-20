@@ -1,7 +1,7 @@
 module.exports = {
     title: '路某人',
     description: '纸上得来终觉浅，绝知此事要躬行。',
-    // base: '/blog/',
+    base: '/blog/',
     themeConfig: {
         repo: 'https://github.com/YoungLightMing/blog',
         nav: [
